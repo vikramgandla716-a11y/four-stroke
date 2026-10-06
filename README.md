@@ -2,7 +2,6 @@ import streamlit as st
 import math
 
 st.title("⚙️ 4-Stroke Engine Calculator")
-
 bore = st.number_input("Bore (mm)", value=80.0)
 stroke = st.number_input("Stroke (mm)", value=90.0)
 cyl = st.number_input("Cylinders", value=4, step=1)
